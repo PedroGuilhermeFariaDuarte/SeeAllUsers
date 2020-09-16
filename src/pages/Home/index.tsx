@@ -95,7 +95,7 @@ const Home: React.FC = () => {
     }
 
     // @ts-ignore
-    const resultSearch: [ IUser ] = allUsers && allUsers.filter((user: IUser) => user.name === param || user.age === param)
+    const resultSearch: [ IUser ] = allUsers && allUsers.filter((user: IUser) => user.name === param || parseInt(user.age) === parseInt(param))
 
     if (resultSearch?.length > 0) {
       // @ts-ignore
