@@ -1,5 +1,6 @@
 # SeeAllUsers
-An interface to see all users and search for one! Have an Good experience :D
+<img src="./show/cover.png"> <img src="./show/cover2.png">
+An interface to see all users and search users! Have an Good experience :D
 
 ## Prerequisites
 1ª Yarn
